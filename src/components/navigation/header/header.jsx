@@ -76,6 +76,17 @@ function Header() {
                 >
                     MERCHANDISE
                 </NavLink>
+                <NavLink
+                    to="/team"
+                    className={({ isActive }) =>
+                        `px-8 py-3 hover:text-rose-400 font-crossFly text-xs tracking-widest ${
+                            isActive ? 'text-rose-400' : 'text-white'
+                        }`
+                    }
+                    onMouseEnter={handleHover}
+                >
+                    TEAM
+                </NavLink>
 
                 <NavLink
                     to="/contact"

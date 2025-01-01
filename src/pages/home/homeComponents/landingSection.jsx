@@ -50,12 +50,12 @@ function LandingSection() {
                     
                         <div className='flex flex-col justify-center items-center mt-12'>
                             <h1 className='text-5xl font-fastLines'>explore</h1>
-                            <div class="mouse-scroll">
-                                <div class="mouse">
-                                    <div class="wheel"></div>
+                            <div className="mouse-scroll">
+                                <div className="mouse">
+                                    <div className="wheel"></div>
                                 </div>
                                     
-                                <div class="arrow"></div>
+                                <div className="arrow"></div>
                             </div>
                         </div>
                     </div>
